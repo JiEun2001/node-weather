@@ -12,8 +12,8 @@ module.exports = class Weather {
         this.auth = {
             appID: options.appID,
             appCode: options.appCode,
-            base: `https://weather.api.here.com`,
-            uri: `app_id=${encodeURIComponent(options.appID)}&app_code=${encodeURIComponent(options.appCode)}`
+            base: `https://weather.ls.hereapi.comm`,
+            uri: `apiKey=${encodeURIComponent(options.appCode)}`
         }
         
         this.get = phin.defaults({
