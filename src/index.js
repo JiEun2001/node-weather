@@ -12,7 +12,7 @@ module.exports = class Weather {
         this.auth = {
             appID: options.appID,
             appCode: options.appCode,
-            base: `https://weather.ls.hereapi.comm`,
+            base: `https://weather.ls.hereapi.com`,
             uri: `apiKey=${encodeURIComponent(options.appCode)}`
         }
         
